@@ -10,6 +10,14 @@ h1 {
 	font-size: 5rem !important;
 }
 
+h2 {
+	font-size: 3.5rem !important;
+}
+
+h3 {
+	font-size: 2.5rem !important;
+}
+
 .navbar-lg-px {
 	padding: 0 12.5%;
 }
@@ -30,7 +38,7 @@ h1 {
 }
 
 #review h2, #user-videos h2 {
-	font-size: 2.5rem;
+	font-size: 2.5rem !important;
 }
 }
 
@@ -43,17 +51,17 @@ body {
 
 h1 {
 	font-family: 'playfair_displayregular', serif;
-	font-size: 4rem;
+	font-size: 3.5rem;
 }
 
 h2 {
 	font-family: 'playfair_displayregular', serif;
-	font-size: 3.5rem;
+	font-size: 2.75rem;
 }
 
 h3 {
 	font-family: 'playfair_displayregular', serif;
-	font-size: 2.5rem;
+	font-size: 2rem;
 }
 
 a {
