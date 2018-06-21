@@ -25,26 +25,26 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-5 font-weight-bold">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-3 py-lg-5 font-weight-bold">
       <div class="container-fluid navbar-lg-px">
         <a class="navbar-brand" href="#"><img src="img/Logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item mx-3 active">
+          <ul class="navbar-nav ml-auto mt-3">
+            <li class="nav-item mx-lg-3 my-1 my-lg-0 active">
               <a class="nav-link" href="#">HOME
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item mx-3">
+            <li class="nav-item mx-lg-3 my-1 my-lg-0">
               <a class="nav-link" href="#">ABOUT</a>
             </li>
-            <li class="nav-item mx-3">
+            <li class="nav-item mx-lg-3 my-1 my-lg-0">
               <a class="nav-link" href="#">BLOG</a>
             </li>
-            <li class="nav-item mx-3">
+            <li class="nav-item mx-lg-3 my-1 my-lg-0">
               <a class="nav-link" href="#">CONTACT</a>
             </li>
           </ul>
@@ -54,15 +54,18 @@
 
     <!-- Page Content -->
     <div class="container-fluid">
-      <div id="header" class="row py-5">
-        <div class="col-lg-12 text-center">
-          <h1 class="">Long Beach Surfing Institute</h1>
+      <div id="header" class="row justify-content-center py-5">
+        <div class="col-11 text-center">
+          <h1>Long Beach Surfing Institute</h1>
           <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
         </div>
       </div>
       <div class="row my-5 justify-content-center">
-        <div id="review" class="col-xl-2 col-lg-3 col-md-8 col-sm-8 pb-5">
-          <h3 class="text-center text-lg-left pb-3">Recent Reviews</h3>
+      	<div id="main-vid" class="col-xl-4 col-lg-5 order-lg-1 col-sm-12 order-lg-2 pb-5 mx-lg-3 mx-xl-5 px-0">
+          <img src="img/vid1.png" class="img-fluid">
+        </div>
+        <div id="review" class="col-xl-2 col-lg-3 col-md-8 col-sm-10 order-lg-1 pb-5">
+          <h2 class="text-center text-lg-left my-5 mt-lg-0 mb-lg-4">Recent Reviews</h3>
           <p class="font-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn.</p>
           <p class="font-weight-bold text-dark">- Steve Woz</p>
           <hr />
@@ -70,11 +73,8 @@
           <p class="font-weight-bold text-dark">- David Collum</p>
           <hr />
         </div>
-        <div id="main-vid" class="col-xl-4 col-lg-5 col-md-10 col-sm-10 pb-5 mx-xl-5">
-          <img src="img/vid1.png" class="img-fluid">
-        </div>
-        <div id="user-videos" class="col-xl-2 col-lg-3 col-md-10 col-sm-10 pb-md-5 pb-5">
-          <h3 class="text-center text-lg-left pb-3">User Videos</h3>
+        <div id="user-videos" class="col-xl-2 col-lg-3 col-sm-10 order-lg-3 pb-5">
+          <h2 class="text-center text-lg-left my-5 mt-lg-0 mb-lg-4">User Videos</h3>
           <img src="img/vid2.png" class="img-fluid mb-5">
           <img src="img/vid3.png" class="img-fluid mb-5">
           
@@ -104,38 +104,40 @@
       	<h2 class="text-center pb-1">Recent Blogs by User</h2>
       </div>
       <div id="blog-post" class="row my-5 justify-content-center align-items-center">
-      	<div class="col-lg-4 col-md-10 col-sm-10 mx-lg-3 pb-3 text-center">
+      	<div class="col-lg-4 col-sm-10 mx-lg-3 pb-3 text-center">
       		<img src="img/blog1.png" class="img-fluid">
       	</div>
-      	<div class="col-lg-4 col-md-10 col-sm-10 mx-lg-3 pb-3 text-left">
+      	<div class="col-lg-4 col-sm-10 mx-lg-3 pb-3 text-left">
       		<h3 class="mb-lg-3">Lipsum cound be headline</h3>
       		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-      		<a href="#" class="btn white-btn text-bold mt-3" role="button">Read More</a>
+      		<a href="#" class="btn white-btn font-weight-bold mt-3" role="button">Read More</a>
       	</div>
       </div>
       <div id="blog-post" class="row my-5 justify-content-center align-items-center">
-      	<div class="col-lg-4 order-lg-2 col-md-10 col-sm-10 mx-lg-3 pb-3 text-center">
+      	<div class="col-lg-4 order-lg-2 col-sm-10 mx-lg-3 pb-3 text-center">
       		<img src="img/blog2.png" class="img-fluid">
       	</div>
-      	<div class="col-lg-4 order-lg-1 col-md-10 col-sm-10 mx-lg-3 pb-3 text-left">
+      	<div class="col-lg-4 order-lg-1 col-sm-10 mx-lg-3 pb-3 text-left">
       		<h3 class="mb-lg-3">Lipsum cound be headline</h3>
       		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-      		<a href="#" class="btn white-btn text-weight-bold mt-3" role="button">Read More</a>
+      		<a href="#" class="btn white-btn font-weight-bold mt-3" role="button">Read More</a>
       	</div>
       </div>
       <div id="enroll" class="row mt-5 justify-content-center pt-5">
-      	<h2 class="text-center">Aren't you interested yet?</h2>
+      	<div class="col-lg-12 col-10 text-center">
+      		<h2>Aren't you interested yet?</h2>
+      	</div>
       </div>
       <div id="enroll-btn" class="row mb-5 justify-content-center py-5">
-      	<a href="#" class="btn white-btn text-weight-bold" role="button">Enroll Now</a>
+      	<a href="#" class="btn white-btn font-weight-bold" role="button">Enroll Now</a>
       </div>
       <hr />
       <div id="footer" class="row justify-content-center align-items-end">
-      	<div id="footer-left" class="col-lg-4 col-md-5 col-sm-5 text-sm-left text-center">
+      	<div id="footer-left" class="col-lg-4 col-sm-5 text-sm-left text-center">
       		<h3>Beach Surfing</h3>
       		<p>Copyright 2018 All Rights Reserved</p>
       	</div>
-      	<div id="footer-right" class="col-lg-4 col-md-5 col-sm-5 text-sm-right text-center">
+      	<div id="footer-right" class="col-lg-4 col-sm-5 text-sm-right text-center">
       		<p>Designed by <span class="text-dark">Rikon Rahman</span></p>
       	</div>
       </div>
