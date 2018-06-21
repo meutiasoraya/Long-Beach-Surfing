@@ -15,6 +15,11 @@ body {
 }
 
 .mx-lg-5 {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.mx-lg-5 {
 	margin-left: 3rem;
 	margin-right: 3rem;
 }
@@ -83,16 +88,18 @@ img {
 }
 
 .user-videos img {
-	width: 100%;
 	max-height: 20rem; 
 	overflow: hidden;
 }
 
 #main-vid img {
-	width: 100%;
 	max-height: 27.5rem;
 }
 
 #instructors img {
+	height: 20rem;
+}
+
+#blog-post img {
 	height: 20rem;
 }
