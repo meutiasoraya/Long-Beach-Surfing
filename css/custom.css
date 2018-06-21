@@ -1,21 +1,44 @@
 /* custom CSS */
 
 
+@media (min-width: 992px) {
+body {
+	padding-top: 200px;
+}
+
+.mx-lg-5 {
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
+
+#main-vid img {
+	width: 100%;
+	height: 27.5rem;
+}
+
+.user-videos img {
+	width: 100%;
+	height: 20rem; 
+	overflow: hidden;
+}
+
+}
+
+
 body {
 	padding-top: 200px;
 	color: #000;
 	font-family: 'Avenir Medium', sans-serif;
 }
 
-@media (min-width: 992px) {
-body {
-	padding-top: 200px;
-}
-}
-
 h1 {
 	font-family: 'playfair_displayregular', serif;
-	font-size: 5.25rem;
+	font-size: 5rem;
+}
+
+h2 {
+	font-family: 'playfair_displayregular', serif;
+	font-size: 3.5rem;
 }
 
 h3 {
@@ -28,23 +51,35 @@ p {
 	color: #999;
 }
 
+img {
+	width: 100%;
+	object-fit: cover;
+}
+
 .navbar a {
 	font-size: 0.85rem;
 }
 
-.header p {
+#header p {
 	font-size: 1rem;
 	color: #999;
 }
 
-.review p {
+#review p {
 	font-size: 0.85rem;
-}
-
-.user-videos-box {
-	width: 100%; height: 8.25rem; overflow: hidden;
 }
 
 .user-videos img {
 	width: 100%;
+	max-height: 20rem; 
+	overflow: hidden;
+}
+
+#main-vid img {
+	width: 100%;
+	max-height: 27.5rem;
+}
+
+#instructors img {
+	height: 20rem;
 }
