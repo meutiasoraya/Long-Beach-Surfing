@@ -89,15 +89,27 @@ img {
 	height: 20rem;
 }
 
-#blog-post img {
-	height: 20rem;
-}
-
 .white-btn {
 	border: 1px solid #ccc;
 	border-radius: 0;
 }
 
+#blog-post img {
+	height: 20rem;
+}
+
+#blog-post a {
+	padding: 0.75rem 1.5rem;
+}
+
 #enroll h2 {
 	font-size: 4rem;
+}
+
+#enroll-btn a {
+	padding: 1rem 2rem;
+}
+
+#footer-left h3 {
+	font-size: 2rem;
 }
