@@ -10,20 +10,6 @@ body {
 	padding: 0 12.5%;
 }
 
-.text-lg-left {
-	text-align: left;
-}
-
-.mx-lg-5 {
-	margin-left: 1rem;
-	margin-right: 1rem;
-}
-
-.mx-lg-5 {
-	margin-left: 3rem;
-	margin-right: 3rem;
-}
-
 #main-vid img {
 	width: 100%;
 	height: 27.5rem;
@@ -37,7 +23,6 @@ body {
 
 #review {
 	max-height: 27.5rem;
-	overflow: hidden;
 }
 
 }
@@ -64,6 +49,10 @@ h3 {
 	font-size: 2.5rem;
 }
 
+a {
+	color: #000;
+}
+
 p {
 	line-height: 1.7rem;
 	color: #999;
@@ -87,7 +76,7 @@ img {
 	font-size: 0.85rem;
 }
 
-.user-videos img {
+#user-videos img {
 	max-height: 20rem; 
 	overflow: hidden;
 }
@@ -102,4 +91,13 @@ img {
 
 #blog-post img {
 	height: 20rem;
+}
+
+.white-btn {
+	border: 1px solid #ccc;
+	border-radius: 0;
+}
+
+#enroll h2 {
+	font-size: 4rem;
 }
