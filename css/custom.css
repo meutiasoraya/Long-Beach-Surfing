@@ -40,6 +40,10 @@ h3 {
 #review h2, #user-videos h2 {
 	font-size: 2.5rem !important;
 }
+
+.review-text h3 {
+	font-size: 5rem !important;
+}
 }
 
 
@@ -89,6 +93,12 @@ img {
 
 #review p {
 	font-size: 0.85rem;
+}
+
+.review-text img {
+	width: 36px;
+	transform: translate(-1rem, 0.25rem);
+	z-index: -1;
 }
 
 #user-videos img {
